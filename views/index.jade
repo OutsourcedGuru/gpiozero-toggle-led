@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  if title == 'LED now blinking'
+    form(method="post")
+      input(type="Submit", value="Turn off LED")
+  else
+    form(method="get")
+      input(type="Submit", value="Blink LED")

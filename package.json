@@ -1,0 +1,24 @@
+{
+  "name": "gpiozero-toggle-led",
+  "description": "Example using js-gpiozero library to toggle internal activity LED on the Raspberry Pi Zero W",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OutsourcedGuru/gpiozero-toggle-led.git"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "js-gpiozero": "^1.2.4",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  }
+}

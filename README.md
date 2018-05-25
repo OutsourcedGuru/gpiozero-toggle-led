@@ -52,3 +52,8 @@ $ open http://pizero.local:3000
 The Express-generated website is very simple. The main index page (HTTP GET) exercises the js-gpiozero library to blink the built-in activity light on the Raspberry Pi Zero. It presents a button which will post back to the same page. On HTTP POST it will run a different function in the routes file to toggle off the same LED.
 
 Note that the interface level of a Raspberry Pi Zero is reversed from that of a Raspberry Pi 3. So the call to gpio.LED(pin, false) has a second argument which must be called for it to work as expected.
+
+|Donate||Cryptocurrency|
+|:-----:|---|:--------:|
+| ![eth-receive](https://user-images.githubusercontent.com/15971213/40564950-932d4d10-601f-11e8-90f0-459f8b32f01c.png) || ![btc-receive](https://user-images.githubusercontent.com/15971213/40564971-a2826002-601f-11e8-8d5e-eeb35ab53300.png) |
+|Ethereum||Bitcoin|
